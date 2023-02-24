@@ -170,3 +170,137 @@ html {
   [hidden] {
     display: none;
   }
+
+  /* Site */
+
+  body {
+    font-family: 'Poppins';
+  }
+
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  /* header */
+
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-top: 38px;
+  }
+
+  .header-logo {
+    width: 180px;
+    height: 32px;
+    margin-top: 35px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #009379;
+    width: 200px;
+    padding: 18px 50px 18px 50px;
+    border-radius: 20px;
+    background: transparent;
+    margin-right: 20px;
+    transition: all 0.5s;
+  }
+
+  .nav-link:hover {
+    background: #E5F4F2;
+  }
+
+  .started-btn {
+    width: 220px;
+    background-color: #009379;
+    border-radius: 20px;
+    border: none;
+    padding: 18px 50px 18px 50px;
+    margin-top: 20px;
+  }
+
+  .btn-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .btn-txt {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  /* intro */
+
+  .intro {
+    max-height: 100vh;
+  }
+
+  .intro-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro-info {
+    width: 50%;
+  }
+
+  .intro-title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 67px;
+    line-height: 130%;
+    color: #2D2D2D;
+    width: 650px;
+    margin-top: 220px;
+    margin-bottom: 20px;
+  }
+
+  .intro-txt {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 150%;
+    width: 650px;
+    margin-bottom: 20px;
+  }
+
+  .how-it-work-btn {
+    border: 1px solid #009379;
+    padding: 16px 50px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    color: #009379;
+    margin-left: 20px;
+  }
+
+  .work-btn-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .intro-img {
+    width: 50%;
+    background-image: url(../img/Visuals.png);
+    background-repeat: no-repeat;
+    background-size: 450px 450px;
+    background-position: 100% 140%;
+  }
