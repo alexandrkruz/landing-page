@@ -175,6 +175,7 @@ html {
 
   body {
     font-family: 'Poppins';
+    background-color: #F8F9FF;
   }
 
   .container {
@@ -328,3 +329,105 @@ html {
     height: 25px;
     margin: 25px 0;
   }
+
+  /* features */
+
+  .features {
+    margin-bottom: 160px;
+  }
+
+  .title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #2D2D2D;
+  }
+
+  .features-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+
+  .features-item {
+    width: 310px;
+    background-color: #fff;
+    border: 1px solid #D8D8D8;
+    box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+    border-radius: 20px;
+    padding: 40px 30px 40px 30px;
+  }
+
+  .fetures-item:not(:last-child) {
+    margin-right: 30px;
+    display: block;
+  }
+
+  .features-item-inner {
+    width: 310px;
+    margin: 0 auto;
+  }
+
+  .features-item-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .fetures-item-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #2D2D2D;
+    margin-bottom: 25px;
+  }
+
+  .features-item-txt {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #2D2D2D;
+    margin-bottom: 30px;
+  }
+
+  .fetures-item-link {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #009379;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+  }
+
+  .arrow-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 8px;
+  }
+
+
