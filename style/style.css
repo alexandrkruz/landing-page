@@ -248,6 +248,7 @@ html {
 
   .intro {
     max-height: 100vh;
+    margin-bottom: 160px;
   }
 
   .intro-wrapper {
@@ -303,4 +304,27 @@ html {
     background-repeat: no-repeat;
     background-size: 450px 450px;
     background-position: 100% 140%;
+  }
+  
+  /* logo-bar */
+
+  .logo-bar {
+    margin-bottom: 160px;
+  }
+
+  hr {
+    background-color: #D8D8D8;
+    height: 1px;
+    border: none;
+  }
+
+  .logo-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-bar-item {
+    width: 90px;
+    height: 25px;
+    margin: 25px 0;
   }
