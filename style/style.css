@@ -249,7 +249,7 @@ html {
 
   .intro {
     max-height: 100vh;
-    margin-bottom: 160px;
+    margin-bottom: 215px;
   }
 
   .intro-wrapper {
@@ -310,7 +310,7 @@ html {
   /* logo-bar */
 
   .logo-bar {
-    margin-bottom: 160px;
+    margin-bottom: 170px;
   }
 
   hr {
@@ -430,4 +430,54 @@ html {
     left: 8px;
   }
 
+/* get-started-block */
 
+.get-started-block {
+  margin-bottom: 160px;
+}
+
+.visual-circle-bg {
+  width: 50%;
+  background-image: url(../img/Visuals-circle.png);
+  background-repeat: no-repeat;
+  background-size: 540px 450px;
+}
+
+.get-started-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-started-info {
+  width: 50%;
+}
+
+.get-started-info-inner {
+  margin-top: 70px;
+}
+
+.get-started-info-title {
+  text-align: left;
+  width: 570px;
+  font-size: 50px;
+}
+
+.get-started-info-txt {
+  width: 470px;
+}
+
+.get-started-btn {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #009379;
+  border-radius: 20px;
+  width: 220px;
+  border: none;
+  padding: 18px 50px 18px 50px;
+  cursor: pointer;
+  margin-top: 75px;
+}
