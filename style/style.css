@@ -607,3 +607,61 @@ html {
 .michael {
   margin-top: 50px;
 }
+
+/* team */
+
+.team {
+  margin-bottom: 160px;
+}
+
+.team-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.team-item-card {
+  width: 370px;
+  background: #FFFFFF;
+  box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.item-card-photo {
+  width: 370px;
+  height: 280px;
+}
+
+.card-name {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 130%;
+  text-align: center;
+  color: #111827;
+  margin-top: 20px;
+}
+
+.card-proffesion {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #2D2D2D;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.social-icons-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
