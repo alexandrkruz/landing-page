@@ -482,3 +482,48 @@ html {
   cursor: pointer;
   margin-top: 75px;
 }
+
+/* metrics */
+
+.metrics-block {
+  margin-bottom: 160px;
+}
+
+.metrics-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metrics-item {
+  margin-top: 60px;
+  width: 270px;
+  padding: 48px 16px;
+  border-bottom: 4px solid #F2BFAF;
+  box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.metrics-item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.metrics-title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2D2D2D;
+}
+
+.metrics-subtitle {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #2D2D2D;
+  margin-top: 5px;
+}
