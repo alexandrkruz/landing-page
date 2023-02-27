@@ -527,3 +527,82 @@ html {
   color: #2D2D2D;
   margin-top: 5px;
 }
+
+/* stories-block */
+
+.stories {
+  margin-bottom: 160px;
+}
+
+.stories-item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.stories-item {
+  width: 370px;
+  background-color: #fff;
+  border: 1px solid #D8D8D8;
+  box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px 30px 40px 30px;
+}
+
+.stories-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.stories-item-img {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  display: block;
+}
+
+.stories-item-title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 130%;
+  text-align: center;
+  color: #111827;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.stories-item-subtitle {
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #374151;
+  margin-bottom: 30px;
+}
+
+.stories-item-txt {
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #2D2D2D;
+  width: 310px;
+  margin: 0 auto;
+}
+
+.star-icons-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.star-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.michael {
+  margin-top: 50px;
+}
