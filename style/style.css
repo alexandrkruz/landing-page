@@ -726,4 +726,138 @@ html {
   padding-bottom: 95px;
 }
 
-  
+/* contct-form */
+
+
+.contact-block {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  padding-bottom: 60px;
+}
+
+.contact-block-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+.contact-info {
+  width: 50%;
+}
+
+.contact-info-title {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.contact-info-subtitle {
+  text-align: left;
+  width: 465px;
+  margin-bottom: 40px;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 5px;
+}
+
+.contact-adress {
+  position: relative;
+  left: 10px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2D2D2D;
+}
+
+.contact-meseengers-title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 130%;
+  color: #2D2D2D;
+  margin-top: 100px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contact-messengers-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.messenger-icon-link:not(:first-child) {
+  margin-left: 15px;
+}
+
+.form {
+  margin-left: 60px;
+}
+
+.name-form {
+  width: 485px;
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2D2D2D;
+  margin-bottom: 10px;
+}
+
+.your-message {
+  width: 485px;
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  border-radius: 20px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2D2D2D;
+  height: 180px;
+  resize: none;
+}
+
+::placeholder {
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2D2D2D;
+}
+
+.submit-form-btn {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #009379;
+  border-radius: 20px;
+  width: 220px;
+  border: none;
+  padding: 18px 50px 18px 50px;
+  cursor: pointer;
+  margin-top: 20px;
+}
