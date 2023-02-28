@@ -735,6 +735,7 @@ html {
   border: 1px solid #D8D8D8;
   border-radius: 20px;
   padding-bottom: 60px;
+  margin-bottom: 160px;
 }
 
 .contact-block-inner {
@@ -860,4 +861,39 @@ html {
   padding: 18px 50px 18px 50px;
   cursor: pointer;
   margin-top: 20px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2D2D2D;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 30px 0;
+  display: block;
+}
+
+.footer-social-img {
+  width: 32px;
+  height: 32px;
+}
+
+.social-wrapper {
+  margin-top: 25px;
+}
+
+.footer-social-link:not(:last-child) {
+  margin-right: 15px;
 }
