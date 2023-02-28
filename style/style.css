@@ -673,7 +673,7 @@ html {
 }
 
 .start-block-item {
-  background-image: url(/img/strat-block-bg.png);
+  background-image: url(../img/strat-block-bg.png);
   background-size: 100% 435px;
   background-repeat: no-repeat;
 }
